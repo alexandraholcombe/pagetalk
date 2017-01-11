@@ -20,10 +20,14 @@ $(document).ready(function() {
 
   $("button#goodbye").click(function() {
     $("ul#user").prepend("<li>GoodBye!</li>");
-    $("ul#webpage").prepend("<li>GoodBye, dear user!</li>")
+    $("ul#webpage").prepend("<li>GoodBye, dear user!</li>");
   });
   $("button#stop").click(function() {
     $("ul#user").prepend("<li>Stop copying me!</li>");
-    $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>")
+    $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
+  });
+  $("button#morning").click(function() {
+    $("ul#user").prepend("<li>Morning!!!</li>");
+    $("ul#webpage").prepend("<li>Morning is here??</li>");
   });
 });
